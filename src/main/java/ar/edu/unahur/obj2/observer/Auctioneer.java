@@ -16,6 +16,6 @@ public class Auctioneer {
     }
 
     public void notify(Offer anOffer, String productName) {
-       System.out.println("Hay una nueva oferta de " + productName + ", " + anOffer.getOfferedValue()); 
+       System.out.println("Hay una nueva oferta para " + productName + " de " + anOffer.getOfferedValue() + "$  "); 
     }
 }
